@@ -1,0 +1,1 @@
+﻿//JavaScriptCashierWork.js

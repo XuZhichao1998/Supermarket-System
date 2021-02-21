@@ -1,0 +1,149 @@
+﻿body { /*简单选择器*/
+    background-color: lightskyblue;
+    font-family: KaiTi,serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+p {
+    font-family: FangSong;
+}
+
+h1 {
+    background-color: lightgreen;
+}
+
+#red {
+    color: red;
+}
+/*id选择器*/
+p.gushi {
+    font-family: FangSong,serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: Crimson;
+    background-color: Tan;
+    word-spacing: 1px;
+    line-height: 1.5em;
+    text-indent: 2em;
+    text-align: left;
+}
+
+p.submit {
+    text-align: right;
+    font-size: 15px;
+    font-family: SimSun;
+    font-weight: bold;
+}
+
+p.submit2 {
+    text-align: left;
+    font-size: 15px;
+    font-family: SimSun;
+    font-weight: bold;
+}
+
+.regText { /*类选择器，用于文本*/
+    font-size: 1.1em;
+    font-family: KaiTi;
+    text-align: left;
+    background-color: cornflowerblue;
+}
+
+.login {
+    background-color: lightpink;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.login2 {
+    background-color: lightpink;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.wordText { /*类选择器*/
+    color: blue;
+}
+
+.pic1 {
+    width: 8em;
+    position: absolute;
+    left: 10px;
+    top: 450px;
+    z-index: 40;
+    background-color: yellow;
+}
+
+.pic2 {
+    width: 8em;
+    position: absolute;
+    left: 150px;
+    top: 550px;
+    background-color: pink;
+    z-index: 30;
+}
+
+.pic3 {
+    width: 8em;
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    background-color: green;
+    z-index: 20;
+}
+
+.pic4 {
+    width: 8em;
+    position: absolute;
+    left: 220px;
+    top: 630px;
+    background-color: cyan;
+    z-index: 10;
+}
+
+.salesPersonInf {
+    text-align: right;
+    font-size: 0.8em;
+    font-family: 'Microsoft YaHei';
+    color: sienna;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    align-content: center;
+    background-color: darksalmon;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th {
+    background-color: darkorange;
+}
+
+p.showList {
+    background-color: khaki;
+    border-style: outset;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.showMessage {
+    background-color: antiquewhite;
+    color: orangered;
+    font-family: 'Microsoft YaHei';
+    font-size: 0.7em;
+}
+
+p.showMessage {
+    background-color: antiquewhite;
+    color: orangered;
+    font-family: 'Microsoft YaHei';
+    font-size: 0.7em;
+    width: 542px;
+    margin-left: 493px;
+}
